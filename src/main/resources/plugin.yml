@@ -1,0 +1,14 @@
+name: Pots
+version: ${project.version}
+main: com.pots.PotsPlugin
+api-version: '1.21'
+description: Op-only GUI to pick potion effects, then a countdown and everyone gets them.
+commands:
+  pots:
+    description: Open the potion selection GUI
+    usage: /pots
+    permission: pots.use
+permissions:
+  pots.use:
+    description: Allows opening the /pots GUI (ops only)
+    default: op

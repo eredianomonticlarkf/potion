@@ -1,0 +1,11 @@
+# Seconds of countdown after you press Start in the /pots GUI
+countdown-seconds: 3
+
+# How long each level lasts, in seconds
+duration-seconds:
+  level-1: 480   # 8 minutes
+  level-2: 90    # 1 minute 30 seconds
+
+# Potions with one fixed duration, no levels (seconds)
+fixed-duration-seconds:
+  weaving: 180   # 3 minutes
